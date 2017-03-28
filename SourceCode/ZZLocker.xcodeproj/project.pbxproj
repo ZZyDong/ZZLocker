@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADE896311E88F4CF002623FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8962F1E88F4CF002623FB /* ViewController.m */; };
+		ADE896341E88F4E5002623FB /* ZZLocker.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE896331E88F4E5002623FB /* ZZLocker.m */; };
+		ADE8963A1E89FB8F002623FB /* ZZLockerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE896391E89FB8F002623FB /* ZZLockerConst.m */; };
+		ADE8964F1E8A5F86002623FB /* lockBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADE896481E8A5F86002623FB /* lockBg.jpg */; };
+		ADE896571E8A6218002623FB /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE896561E8A6218002623FB /* back.png */; };
+		ADE8965A1E8A629D002623FB /* node_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE896581E8A629D002623FB /* node_normal.png */; };
+		ADE8965B1E8A629D002623FB /* node_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE896591E8A629D002623FB /* node_selected.png */; };
+		ADE896631E8A6699002623FB /* ZZLockerDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8965E1E8A6699002623FB /* ZZLockerDrawView.m */; };
+		ADE896641E8A6699002623FB /* ZZLockerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE896601E8A6699002623FB /* ZZLockerHeaderView.m */; };
+		ADE896651E8A6699002623FB /* ZZLockerPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE896621E8A6699002623FB /* ZZLockerPointView.m */; };
+		ADE896691E8A669E002623FB /* CALayer+ZZLockerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE896681E8A669E002623FB /* CALayer+ZZLockerExtensions.m */; };
+		ADF53E301E84F1350045810B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF53E2F1E84F1350045810B /* main.m */; };
+		ADF53E331E84F1350045810B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF53E321E84F1350045810B /* AppDelegate.m */; };
+		ADF53E391E84F1350045810B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF53E371E84F1350045810B /* Main.storyboard */; };
+		ADF53E3B1E84F1350045810B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF53E3A1E84F1350045810B /* Assets.xcassets */; };
+		ADF53E3E1E84F1350045810B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF53E3C1E84F1350045810B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADE8962E1E88F4CF002623FB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADE8962F1E88F4CF002623FB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADE896321E88F4E5002623FB /* ZZLocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLocker.h; sourceTree = "<group>"; };
+		ADE896331E88F4E5002623FB /* ZZLocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLocker.m; sourceTree = "<group>"; };
+		ADE896351E8908D6002623FB /* ZZLockerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLockerConst.h; sourceTree = "<group>"; };
+		ADE896391E89FB8F002623FB /* ZZLockerConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLockerConst.m; sourceTree = "<group>"; };
+		ADE896481E8A5F86002623FB /* lockBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lockBg.jpg; sourceTree = "<group>"; };
+		ADE896561E8A6218002623FB /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		ADE896581E8A629D002623FB /* node_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = node_normal.png; sourceTree = "<group>"; };
+		ADE896591E8A629D002623FB /* node_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = node_selected.png; sourceTree = "<group>"; };
+		ADE8965D1E8A6699002623FB /* ZZLockerDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLockerDrawView.h; sourceTree = "<group>"; };
+		ADE8965E1E8A6699002623FB /* ZZLockerDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLockerDrawView.m; sourceTree = "<group>"; };
+		ADE8965F1E8A6699002623FB /* ZZLockerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLockerHeaderView.h; sourceTree = "<group>"; };
+		ADE896601E8A6699002623FB /* ZZLockerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLockerHeaderView.m; sourceTree = "<group>"; };
+		ADE896611E8A6699002623FB /* ZZLockerPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLockerPointView.h; sourceTree = "<group>"; };
+		ADE896621E8A6699002623FB /* ZZLockerPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLockerPointView.m; sourceTree = "<group>"; };
+		ADE896671E8A669E002623FB /* CALayer+ZZLockerExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ZZLockerExtensions.h"; sourceTree = "<group>"; };
+		ADE896681E8A669E002623FB /* CALayer+ZZLockerExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ZZLockerExtensions.m"; sourceTree = "<group>"; };
+		ADF53E2B1E84F1350045810B /* ZZLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF53E2F1E84F1350045810B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADF53E311E84F1350045810B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADF53E321E84F1350045810B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADF53E381E84F1350045810B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADF53E3A1E84F1350045810B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF53E3D1E84F1350045810B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADF53E3F1E84F1350045810B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF53E281E84F1350045810B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADE8962D1E88F4CF002623FB /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ADE8962E1E88F4CF002623FB /* ViewController.h */,
+				ADE8962F1E88F4CF002623FB /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		ADE896301E88F4CF002623FB /* ZZLocker */ = {
+			isa = PBXGroup;
+			children = (
+				ADE896351E8908D6002623FB /* ZZLockerConst.h */,
+				ADE896391E89FB8F002623FB /* ZZLockerConst.m */,
+				ADE896321E88F4E5002623FB /* ZZLocker.h */,
+				ADE896331E88F4E5002623FB /* ZZLocker.m */,
+				ADE8965C1E8A6699002623FB /* Contents */,
+				ADE896661E8A669E002623FB /* Extensions */,
+				ADE896471E8A5F86002623FB /* Images */,
+			);
+			path = ZZLocker;
+			sourceTree = "<group>";
+		};
+		ADE896471E8A5F86002623FB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ADE896581E8A629D002623FB /* node_normal.png */,
+				ADE896591E8A629D002623FB /* node_selected.png */,
+				ADE896561E8A6218002623FB /* back.png */,
+				ADE896481E8A5F86002623FB /* lockBg.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		ADE8965C1E8A6699002623FB /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				ADE8965D1E8A6699002623FB /* ZZLockerDrawView.h */,
+				ADE8965E1E8A6699002623FB /* ZZLockerDrawView.m */,
+				ADE8965F1E8A6699002623FB /* ZZLockerHeaderView.h */,
+				ADE896601E8A6699002623FB /* ZZLockerHeaderView.m */,
+				ADE896611E8A6699002623FB /* ZZLockerPointView.h */,
+				ADE896621E8A6699002623FB /* ZZLockerPointView.m */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		ADE896661E8A669E002623FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ADE896671E8A669E002623FB /* CALayer+ZZLockerExtensions.h */,
+				ADE896681E8A669E002623FB /* CALayer+ZZLockerExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ADF53E221E84F1350045810B = {
+			isa = PBXGroup;
+			children = (
+				ADF53E2D1E84F1350045810B /* ZZLocker */,
+				ADF53E2C1E84F1350045810B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF53E2C1E84F1350045810B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF53E2B1E84F1350045810B /* ZZLocker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF53E2D1E84F1350045810B /* ZZLocker */ = {
+			isa = PBXGroup;
+			children = (
+				ADE896301E88F4CF002623FB /* ZZLocker */,
+				ADE8962D1E88F4CF002623FB /* Demo */,
+				ADF53E2E1E84F1350045810B /* Supporting Files */,
+			);
+			path = ZZLocker;
+			sourceTree = "<group>";
+		};
+		ADF53E2E1E84F1350045810B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADF53E311E84F1350045810B /* AppDelegate.h */,
+				ADF53E321E84F1350045810B /* AppDelegate.m */,
+				ADF53E371E84F1350045810B /* Main.storyboard */,
+				ADF53E3A1E84F1350045810B /* Assets.xcassets */,
+				ADF53E3C1E84F1350045810B /* LaunchScreen.storyboard */,
+				ADF53E3F1E84F1350045810B /* Info.plist */,
+				ADF53E2F1E84F1350045810B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF53E2A1E84F1350045810B /* ZZLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF53E421E84F1350045810B /* Build configuration list for PBXNativeTarget "ZZLocker" */;
+			buildPhases = (
+				ADF53E271E84F1350045810B /* Sources */,
+				ADF53E281E84F1350045810B /* Frameworks */,
+				ADF53E291E84F1350045810B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZLocker;
+			productName = ZZLocker;
+			productReference = ADF53E2B1E84F1350045810B /* ZZLocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF53E231E84F1350045810B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Z;
+				TargetAttributes = {
+					ADF53E2A1E84F1350045810B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K497KXD4K9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ADF53E261E84F1350045810B /* Build configuration list for PBXProject "ZZLocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADF53E221E84F1350045810B;
+			productRefGroup = ADF53E2C1E84F1350045810B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF53E2A1E84F1350045810B /* ZZLocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF53E291E84F1350045810B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE8965A1E8A629D002623FB /* node_normal.png in Resources */,
+				ADF53E3E1E84F1350045810B /* LaunchScreen.storyboard in Resources */,
+				ADF53E3B1E84F1350045810B /* Assets.xcassets in Resources */,
+				ADE896571E8A6218002623FB /* back.png in Resources */,
+				ADF53E391E84F1350045810B /* Main.storyboard in Resources */,
+				ADE8964F1E8A5F86002623FB /* lockBg.jpg in Resources */,
+				ADE8965B1E8A629D002623FB /* node_selected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF53E271E84F1350045810B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE896641E8A6699002623FB /* ZZLockerHeaderView.m in Sources */,
+				ADF53E331E84F1350045810B /* AppDelegate.m in Sources */,
+				ADE896341E88F4E5002623FB /* ZZLocker.m in Sources */,
+				ADE896691E8A669E002623FB /* CALayer+ZZLockerExtensions.m in Sources */,
+				ADE896631E8A6699002623FB /* ZZLockerDrawView.m in Sources */,
+				ADE896311E88F4CF002623FB /* ViewController.m in Sources */,
+				ADF53E301E84F1350045810B /* main.m in Sources */,
+				ADE8963A1E89FB8F002623FB /* ZZLockerConst.m in Sources */,
+				ADE896651E8A6699002623FB /* ZZLockerPointView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADF53E371E84F1350045810B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF53E381E84F1350045810B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADF53E3C1E84F1350045810B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF53E3D1E84F1350045810B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF53E401E84F1350045810B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADF53E411E84F1350045810B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF53E431E84F1350045810B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K497KXD4K9;
+				INFOPLIST_FILE = ZZLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhang.yD.ZZLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADF53E441E84F1350045810B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K497KXD4K9;
+				INFOPLIST_FILE = ZZLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhang.yD.ZZLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF53E261E84F1350045810B /* Build configuration list for PBXProject "ZZLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF53E401E84F1350045810B /* Debug */,
+				ADF53E411E84F1350045810B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF53E421E84F1350045810B /* Build configuration list for PBXNativeTarget "ZZLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF53E431E84F1350045810B /* Debug */,
+				ADF53E441E84F1350045810B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADF53E231E84F1350045810B /* Project object */;
+}
